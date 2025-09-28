@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #621402;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    width: 90%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.nav {
+    position: relative;
+}
+
+.header {
+    padding-bottom: 60px;
+    background: linear-gradient(180deg, rgba(98, 20, 2, 0.31) 0%, #621402 85.62%), 
+    url('../img/bg.jpg') no-repeat center top / cover;
+}
+
+.m-menu {
+    display: none;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    margin-left: 17px;
+}
+
+.menu-item {
+    margin-right: 25px;
+}
+
+.menu-link {
+    color: white;
+    text-decoration: none
+}
+
+.Dante {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    margin-left: 11px;
+}
+
